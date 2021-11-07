@@ -11,7 +11,7 @@ source:
 
 build:
   number: 0
-  skip: true  # [win or py27]
+  skip: true  # [win or py<=27]
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
 
 requirements:
@@ -40,4 +40,4 @@ about:
 extra:
   recipe-maintainers:
     - yihming
-    - bli25broad
+    - bli25
