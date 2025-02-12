@@ -16,11 +16,13 @@ build:
 
 requirements:
   build:
+    - {{ stdlib('cxx') }}
     - {{ compiler('cxx') }}
   host:
     - python
     - cython
     - pip
+    - setuptools
     - fftw
   run:
     - python
