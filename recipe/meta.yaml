@@ -23,6 +23,7 @@ requirements:
     - cython
     - pip
     - fftw
+    - setuptools
   run:
     - python
     - numpy
@@ -33,7 +34,7 @@ test:
 
 about:
   home: https://github.com/KlugerLab/pyFIt-SNE
-  license: Multiple
+  license: BSD-4-Clause
   license_file: LICENSE.txt
   summary: Python wrapper for FFT-accelerated Interpolation-based t-SNE (FIt-SNE) package.
   dev_url: https://github.com/KlugerLab/FIt-SNE
